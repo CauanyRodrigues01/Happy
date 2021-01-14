@@ -31,8 +31,6 @@ L.marker([-27.222633, -49.6455874], { icon }).addTo(map);
 function selectImage(event) {
   const button = event.currentTarget;
 
-
-
   // remover todas as classes .active
   const buttons = document.querySelectorAll(".images button");
   buttons.forEach(removeActiveClass);
